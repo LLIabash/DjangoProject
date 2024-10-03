@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,6 +39,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'users',
     'products',
+    'carts',
+    'custom_auth',
 ]
 
 MIDDLEWARE = [
@@ -100,6 +101,14 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+AUTHENTICATION_BACKENDS = [
+    'custom_auth.custom_auth.EmailBackend',
+]
+
+AUTH_USER_MODEL = 'users.User'
+
+
 
 
 # Internationalization

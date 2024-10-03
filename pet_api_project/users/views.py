@@ -19,20 +19,20 @@ class UserListCreateView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class UserDetailView(APIView):
-    def get(self, request, pk):
-        user = get_object_or_404(User, pk=pk)
+    def get(self, request, id):
+        user = get_object_or_404(User, id=id)  # Ищем по UUID
         serializer = UserSerializer(user)
         return Response(serializer.data)
 
-    def put(self, request, pk):
-        user = get_object_or_404(User, pk=pk)
+    def put(self, request, id):
+        user = get_object_or_404(User, id=id)  # Ищем по UUID
         serializer = UserSerializer(user, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    def delete(self, request, pk):
-        user = get_object_or_404(User, pk=pk)
+    def delete(self, request, id):
+        user = get_object_or_404(User, id=id)  # Ищем по UUID
         user.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
