@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680de8b6-b1bb-4660-9f67-6b478f33beaa" name="Changes" comment="init + users api + products api">
-      <change afterPath="$PROJECT_DIR$/pet_api_project/orders/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_api_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_api_project/pet_api_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/pet_api_project/settings.py" afterDir="false" />
