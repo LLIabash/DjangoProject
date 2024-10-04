@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680de8b6-b1bb-4660-9f67-6b478f33beaa" name="Changes" comment="init + users api + products api">
-      <change afterPath="$PROJECT_DIR$/pet_api_project/carts/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet_api_project/carts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet_api_project/orders/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_api_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_api_project/pet_api_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/pet_api_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet_api_project/pet_api_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/pet_api_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/products/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/products/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
