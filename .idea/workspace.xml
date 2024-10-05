@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="680de8b6-b1bb-4660-9f67-6b478f33beaa" name="Changes" comment="init + users api + products api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/pet_api_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/pet_api_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_api_project/pet_api_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/pet_api_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_api_project/carts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/carts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_api_project/orders/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/orders/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_api_project/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/products/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_api_project/reviews/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/reviews/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_api_project/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_api_project/users/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
